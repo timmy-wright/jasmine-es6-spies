@@ -1,0 +1,25 @@
+{
+  "name": "jasmine-es6-spies",
+  "version": "0.0.1",
+  "description": "Helper functions to spy on ES6 classes",
+  "main": "src/index.js",
+  "typings": "src/index.js",
+  "repository": {
+    "url": "https://github.com/drtimwright/jasmine-es6-spies.git",
+    "type": "git"
+  },
+  "author": "tim wright <tim@tfwright.co.nz>",
+  "license": "MIT",
+  "peerDependencies": {
+    "jasmine": "^2.5.2"
+  },
+  "devDependencies": {
+    "jasmine": "^2.5.2"
+  },
+  "scripts": {
+    "test": "tsc; ./node_modules/jasmine/bin/jasmine.js"
+  },
+  "dependencies": {
+    "typescript": "^2.0.8"
+  }
+}
